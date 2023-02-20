@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+        <title>Get Started</title>
+    </head>
+    <body>
+        <h3>Please Fill Out this Form</h3>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input id="fullname" name="fullname" type="text" placeholder="Enter Full Name"/>
+            <p></p>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="Enter Email"/>
+            <p></p>
+            <label for="phone">Phone Number:</label>
+            <input id="phone_number" name="phone_number" type="text" placeholder="Enter Phone Number"/>
+            <p></p>
+            <label for="Bio">Tell us about yourself: </label></br>
+            <textarea rows="5" cols="20"></textarea> </textarea></br>
+            <p></p>
+            <label for="gender">Gender:</label><br/>
+            <input type="radio" id="gender" name="gender" value="male"/>Male
+            <input type="radio" id="gender" name="gender" value="female"/>Female
+            <p></p>
+            What course(s) are you interersted in<br/>
+            <input type="checkbox" id="data_science" name="data_science" value="data"/>
+            <label for="data_science">Data Science</label><br/>
+            <input type="checkbox" id="software" name="software" value="software"/>
+            <label for="software">Software Engineering</label><br/>
+            <input type="checkbox" id="mobile" name="mobile" value="mobile"/>
+            <label for="mobile">Mobile Development</label><br/>
+            <input type="checkbox" id="product" name="product" value="product"/>
+            <label for="product">Product Management</label><br/>
+
+            <p>What are you applying for?
+            <select>
+                <option value=""></option>
+                <option value="data">Data Science</option>
+                <option value="software">Software Engineering</option>
+                <option value="mobile">Mobile Development</option>
+                <option value="product">Product Management</option>
+            </select>
+        </p>
+        <br/>
+        </form>
+        <form method="POST" action="portfolio.html">
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
